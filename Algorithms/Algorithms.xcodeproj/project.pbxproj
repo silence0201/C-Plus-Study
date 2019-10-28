@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8F3D62923656F4500679C18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F3D62823656F4500679C18 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E8F3D62323656F4500679C18 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E8F3D62523656F4500679C18 /* Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8F3D62823656F4500679C18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E8F3D63023656F5800679C18 /* Gaussian_elimination.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Gaussian_elimination.cpp; sourceTree = "<group>"; };
+		E8F3D63123656F5800679C18 /* Newton_Raphson.CPP */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Newton_Raphson.CPP; sourceTree = "<group>"; };
+		E8F3D63223656F5800679C18 /* false-position.CPP */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "false-position.CPP"; sourceTree = "<group>"; };
+		E8F3D63323656F5800679C18 /* Secant_method.CPP */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Secant_method.CPP; sourceTree = "<group>"; };
+		E8F3D63423656F5800679C18 /* successive_approximation.CPP */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = successive_approximation.CPP; sourceTree = "<group>"; };
+		E8F3D63523656F5800679C18 /* Bisection_method.CPP */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Bisection_method.CPP; sourceTree = "<group>"; };
+		E8F3D63723656F5800679C18 /* Rat_maze.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Rat_maze.cpp; sourceTree = "<group>"; };
+		E8F3D63823656F5800679C18 /* sudoku_solve.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sudoku_solve.cpp; sourceTree = "<group>"; };
+		E8F3D63923656F5800679C18 /* N Queens.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "N Queens.cpp"; sourceTree = "<group>"; };
+		E8F3D63A23656F5800679C18 /* Graph Coloring.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Graph Coloring.cpp"; sourceTree = "<group>"; };
+		E8F3D63C23656F5800679C18 /* Tim Sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Tim Sort.cpp"; sourceTree = "<group>"; };
+		E8F3D63D23656F5800679C18 /* Heap Sort .cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Heap Sort .cpp"; sourceTree = "<group>"; };
+		E8F3D63E23656F5800679C18 /* Quick Sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Quick Sort.cpp"; sourceTree = "<group>"; };
+		E8F3D63F23656F5800679C18 /* Radix Sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Radix Sort.cpp"; sourceTree = "<group>"; };
+		E8F3D64023656F5800679C18 /* BitonicSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BitonicSort.cpp; sourceTree = "<group>"; };
+		E8F3D64123656F5800679C18 /* combsort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = combsort.cpp; sourceTree = "<group>"; };
+		E8F3D64223656F5800679C18 /* Insertion Sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Insertion Sort.cpp"; sourceTree = "<group>"; };
+		E8F3D64323656F5800679C18 /* NumericStringSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NumericStringSort.cpp; sourceTree = "<group>"; };
+		E8F3D64423656F5800679C18 /* CocktailSelectionSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CocktailSelectionSort.cpp; sourceTree = "<group>"; };
+		E8F3D64523656F5800679C18 /* Shell Sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Shell Sort.cpp"; sourceTree = "<group>"; };
+		E8F3D64623656F5800679C18 /* Counting_Sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Counting_Sort.cpp; sourceTree = "<group>"; };
+		E8F3D64723656F5800679C18 /* OddEven Sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "OddEven Sort.cpp"; sourceTree = "<group>"; };
+		E8F3D64823656F5800679C18 /* Bubble Sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Bubble Sort.cpp"; sourceTree = "<group>"; };
+		E8F3D64923656F5800679C18 /* Selection Sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Selection Sort.cpp"; sourceTree = "<group>"; };
+		E8F3D64A23656F5800679C18 /* bucketSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bucketSort.cpp; sourceTree = "<group>"; };
+		E8F3D64B23656F5800679C18 /* Merge Sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Merge Sort.cpp"; sourceTree = "<group>"; };
+		E8F3D64C23656F5800679C18 /* Slow Sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Slow Sort.cpp"; sourceTree = "<group>"; };
+		E8F3D64D23656F5800679C18 /* CountingSortString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CountingSortString.cpp; sourceTree = "<group>"; };
+		E8F3D64F23656F5800679C18 /* sieve_of_Eratosthenes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sieve_of_Eratosthenes.cpp; sourceTree = "<group>"; };
+		E8F3D65123656F5800679C18 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E8F3D65223656F5800679C18 /* primefactorization.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = primefactorization.cpp; sourceTree = "<group>"; };
+		E8F3D65423656F5800679C18 /* Power_Huge.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Power_Huge.cpp; sourceTree = "<group>"; };
+		E8F3D65623656F5800679C18 /* MO.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MO.cpp; sourceTree = "<group>"; };
+		E8F3D65723656F5800679C18 /* bit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bit.cpp; sourceTree = "<group>"; };
+		E8F3D65823656F5800679C18 /* segTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = segTree.cpp; sourceTree = "<group>"; };
+		E8F3D65A23656F5800679C18 /* Array Right Rotation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Array Right Rotation.cpp"; sourceTree = "<group>"; };
+		E8F3D65B23656F5800679C18 /* Circular Linked List.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Circular Linked List.cpp"; sourceTree = "<group>"; };
+		E8F3D65C23656F5800679C18 /* Reverse a Linked List using Recusion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Reverse a Linked List using Recusion.cpp"; sourceTree = "<group>"; };
+		E8F3D65D23656F5800679C18 /* Union_of_2_arrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Union_of_2_arrays.cpp; sourceTree = "<group>"; };
+		E8F3D65E23656F5800679C18 /* Intersection_of_2_arrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Intersection_of_2_arrays.cpp; sourceTree = "<group>"; };
+		E8F3D65F23656F5800679C18 /* selectionSortLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = selectionSortLinkedList.cpp; sourceTree = "<group>"; };
+		E8F3D66023656F5800679C18 /* Array Left Rotation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Array Left Rotation.cpp"; sourceTree = "<group>"; };
+		E8F3D66123656F5800679C18 /* Circular Queue Using Array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Circular Queue Using Array.cpp"; sourceTree = "<group>"; };
+		E8F3D66323656F5800679C18 /* Chaining.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Chaining.cpp; sourceTree = "<group>"; };
+		E8F3D66523656F5800679C18 /* Dijkstra.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Dijkstra.cpp; sourceTree = "<group>"; };
+		E8F3D66623656F5800679C18 /* lca.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lca.cpp; sourceTree = "<group>"; };
+		E8F3D66723656F5800679C18 /* BFS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BFS.cpp; sourceTree = "<group>"; };
+		E8F3D66823656F5800679C18 /* Kruskal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Kruskal.cpp; sourceTree = "<group>"; };
+		E8F3D66923656F5800679C18 /* DFS_with_stack.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DFS_with_stack.cc; sourceTree = "<group>"; };
+		E8F3D66A23656F5800679C18 /* DFS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DFS.cpp; sourceTree = "<group>"; };
+		E8F3D66B23656F5800679C18 /* Topological-Sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Topological-Sort.cpp"; sourceTree = "<group>"; };
+		E8F3D66C23656F5900679C18 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E8F3D66E23656F5900679C18 /* Dijkstra.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Dijkstra.cpp; sourceTree = "<group>"; };
+		E8F3D66F23656F5900679C18 /* Knapsack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Knapsack.cpp; sourceTree = "<group>"; };
+		E8F3D67023656F5900679C18 /* Prims Minimum Spanning Tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Prims Minimum Spanning Tree.cpp"; sourceTree = "<group>"; };
+		E8F3D67123656F5900679C18 /* Kruskals Minimum Spanning Tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Kruskals Minimum Spanning Tree.cpp"; sourceTree = "<group>"; };
+		E8F3D67323656F5900679C18 /* Primality Test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Primality Test.cpp"; sourceTree = "<group>"; };
+		E8F3D67423656F5900679C18 /* Decimal to Roman Numeral.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Decimal to Roman Numeral.cpp"; sourceTree = "<group>"; };
+		E8F3D67523656F5900679C18 /* Paranthesis Matching.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Paranthesis Matching.cpp"; sourceTree = "<group>"; };
+		E8F3D67623656F5900679C18 /* fibonacci.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fibonacci.cpp; sourceTree = "<group>"; };
+		E8F3D67723656F5900679C18 /* GCD_of_n_numbers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GCD_of_n_numbers.cpp; sourceTree = "<group>"; };
+		E8F3D67823656F5900679C18 /* Decimal To Hexadecimal .cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Decimal To Hexadecimal .cpp"; sourceTree = "<group>"; };
+		E8F3D67923656F5900679C18 /* sieve_of_Eratosthenes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sieve_of_Eratosthenes.cpp; sourceTree = "<group>"; };
+		E8F3D67A23656F5900679C18 /* Sparse matrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sparse matrix.cpp"; sourceTree = "<group>"; };
+		E8F3D67B23656F5900679C18 /* smallest-circle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "smallest-circle.cpp"; sourceTree = "<group>"; };
+		E8F3D67C23656F5900679C18 /* Happy_number.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Happy_number.cpp; sourceTree = "<group>"; };
+		E8F3D67D23656F5900679C18 /* Buzz_number.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Buzz_number.cpp; sourceTree = "<group>"; };
+		E8F3D67E23656F5900679C18 /* Strassen Matrix Multiplication.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Strassen Matrix Multiplication.cpp"; sourceTree = "<group>"; };
+		E8F3D67F23656F5900679C18 /* String Fibonacci.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "String Fibonacci.cpp"; sourceTree = "<group>"; };
+		E8F3D68023656F5900679C18 /* Palindromeofnumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Palindromeofnumber.cpp; sourceTree = "<group>"; };
+		E8F3D68123656F5900679C18 /* Tower of Hanoi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Tower of Hanoi.cpp"; sourceTree = "<group>"; };
+		E8F3D68223656F5900679C18 /* Decimal To Binary.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Decimal To Binary.cpp"; sourceTree = "<group>"; };
+		E8F3D68323656F5900679C18 /* spiral_print.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = spiral_print.cpp; sourceTree = "<group>"; };
+		E8F3D68523656F5900679C18 /* ternary_search.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ternary_search.cpp; sourceTree = "<group>"; };
+		E8F3D68623656F5900679C18 /* Binary Search.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Binary Search.cpp"; sourceTree = "<group>"; };
+		E8F3D68723656F5900679C18 /* searching.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = searching.cpp; sourceTree = "<group>"; };
+		E8F3D68823656F5900679C18 /* Linear Search.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Linear Search.cpp"; sourceTree = "<group>"; };
+		E8F3D68923656F5900679C18 /* Interpolation Search.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Interpolation Search.cpp"; sourceTree = "<group>"; };
+		E8F3D68B23656F5900679C18 /* TrieTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TrieTree.cpp; sourceTree = "<group>"; };
+		E8F3D68C23656F5900679C18 /* Stack Using Array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Stack Using Array.cpp"; sourceTree = "<group>"; };
+		E8F3D68D23656F5900679C18 /* Queue Using Linked List.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Queue Using Linked List.cpp"; sourceTree = "<group>"; };
+		E8F3D68E23656F5900679C18 /* Queue Using Array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Queue Using Array.cpp"; sourceTree = "<group>"; };
+		E8F3D68F23656F5900679C18 /* Doubly Linked List.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Doubly Linked List.cpp"; sourceTree = "<group>"; };
+		E8F3D69023656F5900679C18 /* List Array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "List Array.cpp"; sourceTree = "<group>"; };
+		E8F3D69123656F5900679C18 /* MorrisInorder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MorrisInorder.cpp; sourceTree = "<group>"; };
+		E8F3D69223656F5900679C18 /* Tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Tree.cpp; sourceTree = "<group>"; };
+		E8F3D69323656F5900679C18 /* Binaryheap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Binaryheap.cpp; sourceTree = "<group>"; };
+		E8F3D69423656F5900679C18 /* AVLtree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AVLtree.cpp; sourceTree = "<group>"; };
+		E8F3D69523656F5900679C18 /* Stack Using Linked List.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Stack Using Linked List.cpp"; sourceTree = "<group>"; };
+		E8F3D69623656F5900679C18 /* Binary Search Tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Binary Search Tree.cpp"; sourceTree = "<group>"; };
+		E8F3D69723656F5900679C18 /* circular_Queue_using_Linked_List.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = circular_Queue_using_Linked_List.cpp; sourceTree = "<group>"; };
+		E8F3D69823656F5900679C18 /* Linked List.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Linked List.cpp"; sourceTree = "<group>"; };
+		E8F3D69923656F5900679C18 /* linkedList_implentation_usingArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = linkedList_implentation_usingArray.cpp; sourceTree = "<group>"; };
+		E8F3D69B23656F5900679C18 /* Egg-Dropping-Puzzle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Egg-Dropping-Puzzle.cpp"; sourceTree = "<group>"; };
+		E8F3D69C23656F5900679C18 /* Fibonacci_Top_Down.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Fibonacci_Top_Down.cpp; sourceTree = "<group>"; };
+		E8F3D69D23656F5900679C18 /* Armstrong Number.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Armstrong Number.cpp"; sourceTree = "<group>"; };
+		E8F3D69E23656F5900679C18 /* Bellman-Ford.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Bellman-Ford.cpp"; sourceTree = "<group>"; };
+		E8F3D69F23656F5900679C18 /* Cut Rod.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Cut Rod.cpp"; sourceTree = "<group>"; };
+		E8F3D6A023656F5900679C18 /* Edit Distance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Edit Distance.cpp"; sourceTree = "<group>"; };
+		E8F3D6A123656F5900679C18 /* Longest Increasing Subsequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Longest Increasing Subsequence.cpp"; sourceTree = "<group>"; };
+		E8F3D6A223656F5900679C18 /* Longest Increasing Subsequence (nlogn).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Longest Increasing Subsequence (nlogn).cpp"; sourceTree = "<group>"; };
+		E8F3D6A323656F5900679C18 /* Longest Common Subsequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Longest Common Subsequence.cpp"; sourceTree = "<group>"; };
+		E8F3D6A423656F5900679C18 /* Coin-Change.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Coin-Change.cpp"; sourceTree = "<group>"; };
+		E8F3D6A523656F5900679C18 /* Catalan-Numbers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Catalan-Numbers.cpp"; sourceTree = "<group>"; };
+		E8F3D6A623656F5900679C18 /* Matrix-Chain-Multiplication.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Matrix-Chain-Multiplication.cpp"; sourceTree = "<group>"; };
+		E8F3D6A723656F5900679C18 /* Floyd-Warshall.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Floyd-Warshall.cpp"; sourceTree = "<group>"; };
+		E8F3D6A823656F5900679C18 /* Fibonacci_Bottom_Up.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Fibonacci_Bottom_Up.cpp; sourceTree = "<group>"; };
+		E8F3D6A923656F5900679C18 /* 0-1 Knapsack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "0-1 Knapsack.cpp"; sourceTree = "<group>"; };
+		E8F3D6AA23656F5900679C18 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8F3D62223656F4500679C18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8F3D61C23656F4500679C18 = {
+			isa = PBXGroup;
+			children = (
+				E8F3D62723656F4500679C18 /* Algorithms */,
+				E8F3D62623656F4500679C18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8F3D62623656F4500679C18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8F3D62523656F4500679C18 /* Algorithms */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8F3D62723656F4500679C18 /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				E8F3D63623656F5800679C18 /* Backtracking */,
+				E8F3D62F23656F5800679C18 /* Computer Oriented Statistical Methods */,
+				E8F3D68A23656F5900679C18 /* Data Structure */,
+				E8F3D69A23656F5900679C18 /* Dynamic Programming */,
+				E8F3D66423656F5800679C18 /* Graph */,
+				E8F3D66D23656F5900679C18 /* Greedy Algorithms */,
+				E8F3D66223656F5800679C18 /* Hashing */,
+				E8F3D6AA23656F5900679C18 /* LICENSE */,
+				E8F3D64E23656F5800679C18 /* Math */,
+				E8F3D65923656F5800679C18 /* Operations on Datastructures */,
+				E8F3D67223656F5900679C18 /* Others */,
+				E8F3D65523656F5800679C18 /* Range queries */,
+				E8F3D66C23656F5900679C18 /* README.md */,
+				E8F3D68423656F5900679C18 /* Search */,
+				E8F3D63B23656F5800679C18 /* Sorting */,
+				E8F3D62823656F4500679C18 /* main.m */,
+			);
+			path = Algorithms;
+			sourceTree = "<group>";
+		};
+		E8F3D62F23656F5800679C18 /* Computer Oriented Statistical Methods */ = {
+			isa = PBXGroup;
+			children = (
+				E8F3D63023656F5800679C18 /* Gaussian_elimination.cpp */,
+				E8F3D63123656F5800679C18 /* Newton_Raphson.CPP */,
+				E8F3D63223656F5800679C18 /* false-position.CPP */,
+				E8F3D63323656F5800679C18 /* Secant_method.CPP */,
+				E8F3D63423656F5800679C18 /* successive_approximation.CPP */,
+				E8F3D63523656F5800679C18 /* Bisection_method.CPP */,
+			);
+			path = "Computer Oriented Statistical Methods";
+			sourceTree = "<group>";
+		};
+		E8F3D63623656F5800679C18 /* Backtracking */ = {
+			isa = PBXGroup;
+			children = (
+				E8F3D63723656F5800679C18 /* Rat_maze.cpp */,
+				E8F3D63823656F5800679C18 /* sudoku_solve.cpp */,
+				E8F3D63923656F5800679C18 /* N Queens.cpp */,
+				E8F3D63A23656F5800679C18 /* Graph Coloring.cpp */,
+			);
+			path = Backtracking;
+			sourceTree = "<group>";
+		};
+		E8F3D63B23656F5800679C18 /* Sorting */ = {
+			isa = PBXGroup;
+			children = (
+				E8F3D63C23656F5800679C18 /* Tim Sort.cpp */,
+				E8F3D63D23656F5800679C18 /* Heap Sort .cpp */,
+				E8F3D63E23656F5800679C18 /* Quick Sort.cpp */,
+				E8F3D63F23656F5800679C18 /* Radix Sort.cpp */,
+				E8F3D64023656F5800679C18 /* BitonicSort.cpp */,
+				E8F3D64123656F5800679C18 /* combsort.cpp */,
+				E8F3D64223656F5800679C18 /* Insertion Sort.cpp */,
+				E8F3D64323656F5800679C18 /* NumericStringSort.cpp */,
+				E8F3D64423656F5800679C18 /* CocktailSelectionSort.cpp */,
+				E8F3D64523656F5800679C18 /* Shell Sort.cpp */,
+				E8F3D64623656F5800679C18 /* Counting_Sort.cpp */,
+				E8F3D64723656F5800679C18 /* OddEven Sort.cpp */,
+				E8F3D64823656F5800679C18 /* Bubble Sort.cpp */,
+				E8F3D64923656F5800679C18 /* Selection Sort.cpp */,
+				E8F3D64A23656F5800679C18 /* bucketSort.cpp */,
+				E8F3D64B23656F5800679C18 /* Merge Sort.cpp */,
+				E8F3D64C23656F5800679C18 /* Slow Sort.cpp */,
+				E8F3D64D23656F5800679C18 /* CountingSortString.cpp */,
+			);
+			path = Sorting;
+			sourceTree = "<group>";
+		};
+		E8F3D64E23656F5800679C18 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				E8F3D64F23656F5800679C18 /* sieve_of_Eratosthenes.cpp */,
+				E8F3D65023656F5800679C18 /* Prime_Factorization */,
+				E8F3D65323656F5800679C18 /* Power_For_Huge_Num */,
+			);
+			path = Math;
+			sourceTree = "<group>";
+		};
+		E8F3D65023656F5800679C18 /* Prime_Factorization */ = {
+			isa = PBXGroup;
+			children = (
+				E8F3D65123656F5800679C18 /* README.md */,
+				E8F3D65223656F5800679C18 /* primefactorization.cpp */,
+			);
+			path = Prime_Factorization;
+			sourceTree = "<group>";
+		};
+		E8F3D65323656F5800679C18 /* Power_For_Huge_Num */ = {
+			isa = PBXGroup;
+			children = (
+				E8F3D65423656F5800679C18 /* Power_Huge.cpp */,
+			);
+			path = Power_For_Huge_Num;
+			sourceTree = "<group>";
+		};
+		E8F3D65523656F5800679C18 /* Range queries */ = {
+			isa = PBXGroup;
+			children = (
+				E8F3D65623656F5800679C18 /* MO.cpp */,
+				E8F3D65723656F5800679C18 /* bit.cpp */,
+				E8F3D65823656F5800679C18 /* segTree.cpp */,
+			);
+			path = "Range queries";
+			sourceTree = "<group>";
+		};
+		E8F3D65923656F5800679C18 /* Operations on Datastructures */ = {
+			isa = PBXGroup;
+			children = (
+				E8F3D65A23656F5800679C18 /* Array Right Rotation.cpp */,
+				E8F3D65B23656F5800679C18 /* Circular Linked List.cpp */,
+				E8F3D65C23656F5800679C18 /* Reverse a Linked List using Recusion.cpp */,
+				E8F3D65D23656F5800679C18 /* Union_of_2_arrays.cpp */,
+				E8F3D65E23656F5800679C18 /* Intersection_of_2_arrays.cpp */,
+				E8F3D65F23656F5800679C18 /* selectionSortLinkedList.cpp */,
+				E8F3D66023656F5800679C18 /* Array Left Rotation.cpp */,
+				E8F3D66123656F5800679C18 /* Circular Queue Using Array.cpp */,
+			);
+			path = "Operations on Datastructures";
+			sourceTree = "<group>";
+		};
+		E8F3D66223656F5800679C18 /* Hashing */ = {
+			isa = PBXGroup;
+			children = (
+				E8F3D66323656F5800679C18 /* Chaining.cpp */,
+			);
+			path = Hashing;
+			sourceTree = "<group>";
+		};
+		E8F3D66423656F5800679C18 /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				E8F3D66523656F5800679C18 /* Dijkstra.cpp */,
+				E8F3D66623656F5800679C18 /* lca.cpp */,
+				E8F3D66723656F5800679C18 /* BFS.cpp */,
+				E8F3D66823656F5800679C18 /* Kruskal.cpp */,
+				E8F3D66923656F5800679C18 /* DFS_with_stack.cc */,
+				E8F3D66A23656F5800679C18 /* DFS.cpp */,
+				E8F3D66B23656F5800679C18 /* Topological-Sort.cpp */,
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
+		E8F3D66D23656F5900679C18 /* Greedy Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				E8F3D66E23656F5900679C18 /* Dijkstra.cpp */,
+				E8F3D66F23656F5900679C18 /* Knapsack.cpp */,
+				E8F3D67023656F5900679C18 /* Prims Minimum Spanning Tree.cpp */,
+				E8F3D67123656F5900679C18 /* Kruskals Minimum Spanning Tree.cpp */,
+			);
+			path = "Greedy Algorithms";
+			sourceTree = "<group>";
+		};
+		E8F3D67223656F5900679C18 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				E8F3D67323656F5900679C18 /* Primality Test.cpp */,
+				E8F3D67423656F5900679C18 /* Decimal to Roman Numeral.cpp */,
+				E8F3D67523656F5900679C18 /* Paranthesis Matching.cpp */,
+				E8F3D67623656F5900679C18 /* fibonacci.cpp */,
+				E8F3D67723656F5900679C18 /* GCD_of_n_numbers.cpp */,
+				E8F3D67823656F5900679C18 /* Decimal To Hexadecimal .cpp */,
+				E8F3D67923656F5900679C18 /* sieve_of_Eratosthenes.cpp */,
+				E8F3D67A23656F5900679C18 /* Sparse matrix.cpp */,
+				E8F3D67B23656F5900679C18 /* smallest-circle.cpp */,
+				E8F3D67C23656F5900679C18 /* Happy_number.cpp */,
+				E8F3D67D23656F5900679C18 /* Buzz_number.cpp */,
+				E8F3D67E23656F5900679C18 /* Strassen Matrix Multiplication.cpp */,
+				E8F3D67F23656F5900679C18 /* String Fibonacci.cpp */,
+				E8F3D68023656F5900679C18 /* Palindromeofnumber.cpp */,
+				E8F3D68123656F5900679C18 /* Tower of Hanoi.cpp */,
+				E8F3D68223656F5900679C18 /* Decimal To Binary.cpp */,
+				E8F3D68323656F5900679C18 /* spiral_print.cpp */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		E8F3D68423656F5900679C18 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				E8F3D68523656F5900679C18 /* ternary_search.cpp */,
+				E8F3D68623656F5900679C18 /* Binary Search.cpp */,
+				E8F3D68723656F5900679C18 /* searching.cpp */,
+				E8F3D68823656F5900679C18 /* Linear Search.cpp */,
+				E8F3D68923656F5900679C18 /* Interpolation Search.cpp */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		E8F3D68A23656F5900679C18 /* Data Structure */ = {
+			isa = PBXGroup;
+			children = (
+				E8F3D68B23656F5900679C18 /* TrieTree.cpp */,
+				E8F3D68C23656F5900679C18 /* Stack Using Array.cpp */,
+				E8F3D68D23656F5900679C18 /* Queue Using Linked List.cpp */,
+				E8F3D68E23656F5900679C18 /* Queue Using Array.cpp */,
+				E8F3D68F23656F5900679C18 /* Doubly Linked List.cpp */,
+				E8F3D69023656F5900679C18 /* List Array.cpp */,
+				E8F3D69123656F5900679C18 /* MorrisInorder.cpp */,
+				E8F3D69223656F5900679C18 /* Tree.cpp */,
+				E8F3D69323656F5900679C18 /* Binaryheap.cpp */,
+				E8F3D69423656F5900679C18 /* AVLtree.cpp */,
+				E8F3D69523656F5900679C18 /* Stack Using Linked List.cpp */,
+				E8F3D69623656F5900679C18 /* Binary Search Tree.cpp */,
+				E8F3D69723656F5900679C18 /* circular_Queue_using_Linked_List.cpp */,
+				E8F3D69823656F5900679C18 /* Linked List.cpp */,
+				E8F3D69923656F5900679C18 /* linkedList_implentation_usingArray.cpp */,
+			);
+			path = "Data Structure";
+			sourceTree = "<group>";
+		};
+		E8F3D69A23656F5900679C18 /* Dynamic Programming */ = {
+			isa = PBXGroup;
+			children = (
+				E8F3D69B23656F5900679C18 /* Egg-Dropping-Puzzle.cpp */,
+				E8F3D69C23656F5900679C18 /* Fibonacci_Top_Down.cpp */,
+				E8F3D69D23656F5900679C18 /* Armstrong Number.cpp */,
+				E8F3D69E23656F5900679C18 /* Bellman-Ford.cpp */,
+				E8F3D69F23656F5900679C18 /* Cut Rod.cpp */,
+				E8F3D6A023656F5900679C18 /* Edit Distance.cpp */,
+				E8F3D6A123656F5900679C18 /* Longest Increasing Subsequence.cpp */,
+				E8F3D6A223656F5900679C18 /* Longest Increasing Subsequence (nlogn).cpp */,
+				E8F3D6A323656F5900679C18 /* Longest Common Subsequence.cpp */,
+				E8F3D6A423656F5900679C18 /* Coin-Change.cpp */,
+				E8F3D6A523656F5900679C18 /* Catalan-Numbers.cpp */,
+				E8F3D6A623656F5900679C18 /* Matrix-Chain-Multiplication.cpp */,
+				E8F3D6A723656F5900679C18 /* Floyd-Warshall.cpp */,
+				E8F3D6A823656F5900679C18 /* Fibonacci_Bottom_Up.cpp */,
+				E8F3D6A923656F5900679C18 /* 0-1 Knapsack.cpp */,
+			);
+			path = "Dynamic Programming";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8F3D62423656F4500679C18 /* Algorithms */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8F3D62C23656F4500679C18 /* Build configuration list for PBXNativeTarget "Algorithms" */;
+			buildPhases = (
+				E8F3D62123656F4500679C18 /* Sources */,
+				E8F3D62223656F4500679C18 /* Frameworks */,
+				E8F3D62323656F4500679C18 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Algorithms;
+			productName = Algorithms;
+			productReference = E8F3D62523656F4500679C18 /* Algorithms */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8F3D61D23656F4500679C18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Silence;
+				TargetAttributes = {
+					E8F3D62423656F4500679C18 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = E8F3D62023656F4500679C18 /* Build configuration list for PBXProject "Algorithms" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E8F3D61C23656F4500679C18;
+			productRefGroup = E8F3D62623656F4500679C18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8F3D62423656F4500679C18 /* Algorithms */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8F3D62123656F4500679C18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8F3D62923656F4500679C18 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E8F3D62A23656F4500679C18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E8F3D62B23656F4500679C18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E8F3D62D23656F4500679C18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E8F3D62E23656F4500679C18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8F3D62023656F4500679C18 /* Build configuration list for PBXProject "Algorithms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8F3D62A23656F4500679C18 /* Debug */,
+				E8F3D62B23656F4500679C18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8F3D62C23656F4500679C18 /* Build configuration list for PBXNativeTarget "Algorithms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8F3D62D23656F4500679C18 /* Debug */,
+				E8F3D62E23656F4500679C18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8F3D61D23656F4500679C18 /* Project object */;
+}
